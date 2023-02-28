@@ -1,0 +1,142 @@
+
+.splash-container {
+  margin: 0 auto;
+  width: 100%; 
+  animation: fadeIn 1s ease;
+  background-color: #000000;
+}
+.splash-container video {
+  width: 100%; 
+  height: 100%;
+  border: 4px solid #000000;
+}
+
+.title-container {
+  text-align: center;
+  padding: 50px;
+  width: 100%;
+}
+.title {
+  max-width: 800px;
+  width: 100%;
+}
+
+.clock-container {
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding-top: 10px;
+  width: 100%;
+
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+.albums-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.album {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.6vmin;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+
+  max-width: 80%;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+/*   border: 1px solid #eaeaea; */
+/*   border-radius: 10px; */
+/*   box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+/*   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+/*   -moz-box-shadow: 0 0 10px rgba( */
+}
+
+.album-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.album-gif {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.album-title {
+  text-align: center;
+  padding-bottom: 10px;
+  
+}
+.album-price {
+  color: #00d600;
+  font-size: 2.2vmin;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.bn {
+/*   style for all buttons */
+  border: 0;
+  background:0;
+}
+.bn img { 
+  vertical-align: middle;
+  min-width: 5em;
+  max-width: 10em;
+  width: 100%;
+  height: auto;
+}
+
+.kunaki:hover img {content: url('../assets/button-kunaki-hover.png');}
+.bandcamp:hover img {content: url('../assets/button-bandcamp-hover.png');}
+.spoti:hover img {content: url('../assets/button-spotify-hover.png');}
+.apple:hover img {content: url('../assets/button-apple-hover.png');}
+.youtube:hover img {content: url('../assets/button-youtube-hover.png');}
+
+.book-container {
+  display: block;
+  margin: 0 auto;
+
+  max-width: 800px;
+  width: 100%;
+}
+.page {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+/*   padding-bottom: 20px; */
+}
+
+.copyright {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+
+  text-align: center;
+  font-size: 1.2vmin;
+  letter-spacing: 0.1em;
+
+  padding: 50px;
+}
+.copyright img {
+  display: block;
+  margin: 0 auto;
+  max-width: 120px;
+}
