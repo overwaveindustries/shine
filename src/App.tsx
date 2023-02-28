@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 const TitleComponent = () => {
   return (
     <div className={'splash-container'} >
-      <video muted loop='true' autoPlay playsInline preload='false'>
+      <video muted loop autoPlay playsInline preload='false'>
         <source src="../assets/shine-title-video.mp4" />
       </video>
     </div>
